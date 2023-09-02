@@ -28,6 +28,5 @@ jobs:
     - name: Run Tests
       run: |
         python manage.py test
-        pytest
       env:
         DJANGO_SETTINGS_MODULE: mysite.settings
